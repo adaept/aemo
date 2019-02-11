@@ -1,6 +1,7 @@
 bower_components/
 node_modules/
-coverage/
+coverage/*
+coverage/lcov-report
 vendor/
 npm-debug.log
 
