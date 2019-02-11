@@ -1,18 +1,20 @@
-const customLaunchers = require('./build-helpers/karma-helpers/saucelabs-browsers');
-const { SAUCE_USERNAME, SAUCE_ACCESS_KEY } = process.env;
+const puppeteer = require('puppeteer');
+process.env.CHROME_BIN = puppeteer.executablePath();
 
-const isSauceLabs = SAUCE_USERNAME && SAUCE_ACCESS_KEY;
+//const customLaunchers = require('./build-helpers/karma-helpers/saucelabs-browsers');
+//const { SAUCE_USERNAME, SAUCE_ACCESS_KEY } = process.env;
+//const isSauceLabs = SAUCE_USERNAME && SAUCE_ACCESS_KEY;
 
-module.exports = function(config) {
+module.exports = function (config) {
 
-  if (isSauceLabs) {
-    reporters = ['dots', 'coverage', 'clear-screen', 'saucelabs'];
-    browsers = Object.keys(customLaunchers);
-  } else {
-    reporters = ['progress', 'coverage', 'clear-screen'];
-    browsers = ['PhantomJS'];
-    // browsers = [];
-  }
+  //  if (isSauceLabs) {
+  //    reporters = ['dots', 'coverage', 'clear-screen', 'saucelabs'];
+  //    browsers = Object.keys(customLaunchers);
+  //  } else {
+  reporters = ['progress', 'coverage', 'clear-screen'];
+  browsers = ['ChromeHeadless'];
+  // browsers = [];
+  // }
 
   config.set({
     basePath: '',
@@ -32,10 +34,10 @@ module.exports = function(config) {
     preprocessors: {},
 
     coverageReporter: {
-      reporters:[
-        {type: 'html', dir:' coverage/'},
-        {type: 'text-summary'},
-        {type: 'lcov', subdir: 'lcov-report'}
+      reporters: [
+        { type: 'html', dir: ' coverage/' },
+        { type: 'text-summary' },
+        { type: 'lcov', subdir: 'lcov-report' }
       ],
     },
     // test results reporter to use
@@ -51,7 +53,7 @@ module.exports = function(config) {
     logLevel: config.LOG_INFO,
     sauceLabs: { testName: 'mo · js v2 tests' },
     captureTimeout: 50000,
-    customLaunchers,
+    ////customLaunchers,
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers,
