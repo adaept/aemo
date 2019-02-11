@@ -3,3 +3,5 @@ node_modules/
 coverage/
 vendor/
 npm-debug.log
+
+stats.json

@@ -19,10 +19,10 @@
     "motion graphics"
   ],
   "author": {
-    "name": "mojs-contrib",
-    "email": "TBD@gmail.com",
-    "twitter": "@TBD",
-    "url": "https://twitter.com/TBD"
+    "name": "MOFTW",
+    "email": "MOFTW@gmail.com",
+    "twitter": "@MOFTW",
+    "url": "https://twitter.com/MOFTW"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/mojs-contrib/mojs/issues"
   },
-  "homepage": "https://github.com/TBD/mojs",
+  "homepage": "https://github.com/MOFTW/mojs",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
