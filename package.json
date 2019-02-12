@@ -63,10 +63,9 @@
     "karma-cli": "^2.0.0",
     "karma-coverage": "^1.1.2",
     "karma-jasmine": "^2.0.1",
-    "karma-phantomjs-launcher": "^1.0.4",
     "karma-sauce-launcher": "^2.0.2",
     "mojs-player": "^0.43.16",
-    "phantomjs-polyfill": "0.0.2",
+    "puppeteer": "^1.12.2",
     "uglifyjs-webpack-plugin": "^2.1.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
