@@ -1,6 +1,6 @@
 # Shape
 
-- [CodePen Example](http://codepen.io/sol0mka/pen/bbd4fe6c1ac8519c76bc18828844e2c3)
+- [CodePen Example](https://codepen.io/sol0mka/pen/bbd4fe6c1ac8519c76bc18828844e2c3)
 - [Tween API](./tweens/tween.md)
 - [back](./readme.md)
 
@@ -8,7 +8,7 @@ Full API reference:
 
 ```javascript
 const shape = new mojs.Shape({
-  
+
   /* SHAPE PROPERTIES */
 
   // Parent of the module. {String, Object} [selector, HTMLElement]
@@ -109,7 +109,7 @@ const shape = new mojs.Shape({
 
   // Context callbacks will be called with. {Object}
   callbacksContext: this,
-  
+
   /* TWEEN PROPERTIES */
   // Duration {Number}
   duration:       350,
@@ -235,6 +235,6 @@ const shape = new mojs.Shape({
 
 ```
 
-- [CodePen Example](http://codepen.io/sol0mka/pen/bbd4fe6c1ac8519c76bc18828844e2c3)
+- [CodePen Example](https://codepen.io/sol0mka/pen/bbd4fe6c1ac8519c76bc18828844e2c3)
 - [Tween API](./tweens/tween.md)
 - [back](./readme.md)
