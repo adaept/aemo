@@ -3,9 +3,10 @@
   "description": "motion graphics toolbelt for the web",
   "version": "0.288.1",
   "license": "MIT",
-  "homepage": "https://github.com/legomushroom/mojs",
+  "homepage": "https://github.com/mojs-contrib/mojs",
   "authors": [
-    "Oleg Solomka @legomushroom <legomushroom@gmail.com>"
+    "Oleg Solomka",
+    "mojs-contrib"
   ],
   "main": "build/mo.min.js",
   "keywords": [
