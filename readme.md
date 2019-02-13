@@ -1,3 +1,3 @@
-# mojs `v2.0.0`
+# aemo
 
 Work toward `v2` release.
