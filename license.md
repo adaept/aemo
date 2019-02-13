@@ -2,7 +2,7 @@
 
 (The MIT License)
 
-Copyright (c) 2019 mojs-contrib
+Copyright (c) 2019 adaept
 
 Copyright (c) 2014-2017 Oleg Solomka
 
