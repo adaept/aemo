@@ -9,7 +9,7 @@ import tweener from './tween/tweener';
 import numberToFrame from './helpers/numberToFrame';
 
 var mojs = {
-  revision: '2.3.0',
+  revision: '2.4.0',
   Tween,
   tweener,
   __helpers__: {

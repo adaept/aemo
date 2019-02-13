@@ -1,7 +1,7 @@
 {
   "name": "mo-js",
   "description": "motion graphics toolbelt for the web",
-  "version": "2.2.2",
+  "version": "2.4.0",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -19,19 +19,19 @@
     "motion graphics"
   ],
   "author": {
-    "name": "MOFTW",
-    "email": "MOFTW@gmail.com",
-    "twitter": "@MOFTW",
-    "url": "https://twitter.com/MOFTW"
+    "name": "aemo",
+    "email": "aemo@gmail.com",
+    "twitter": "@adaept",
+    "url": "https://twitter.com/adaept"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mojs-contrib/mojs.git"
+    "url": "https://github.com/adaept/aemo.git"
   },
   "bugs": {
-    "url": "https://github.com/mojs-contrib/mojs/issues"
+    "url": "https://github.com/adaept/aemo/issues"
   },
-  "homepage": "https://github.com/MOFTW/mojs",
+  "homepage": "https://github.com/adaept/aemo",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
