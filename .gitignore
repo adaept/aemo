@@ -1,9 +1,8 @@
 bower_components/
-node_modules/
+build/
 coverage/
-coverage/PhantomJS 2.1.1 (Windows 8.0.0)
-coverage/lcov-report
+node_modules/
 vendor/
-npm-debug.log
 
+npm-debug.log
 stats.json
