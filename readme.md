@@ -2,12 +2,8 @@
 
 Work toward `v2` release.
 
-// # mo · js – [![npm](https://img.shields.io/npm/v/mo-js.svg)](https://www.npmjs.com/package/mo-js) [![Build Status](https://travis-ci.org/mojs-contrib/mojs.svg?branch=master)](https://travis-ci.org/mojs-contrib/mojs) [![Coverage Status](https://coveralls.io/repos/legomushroom/mojs/badge.svg?branch=master)](https://coveralls.io/r/legomushroom/mojs?branch=master) [![Slack Channel](https://img.shields.io/badge/style-join-ff69b4.svg?label=slack%20channel)](https://mojs-contrib.slack.com)
-The motion graphics toolbelt for the web.
+## Demos from 0.288.2
 
-// ![mo · js](logo.png "mo · js")
-
-## Demos
 - [Motion Graphics for the Web](https://codepen.io/sol0mka/full/ogOYJj/)
 - [Bubble Layout](https://codepen.io/sol0mka/full/yNOage/)
 - [Sleepy Mole](https://codepen.io/sol0mka/full/OyzBXR)
@@ -29,6 +25,7 @@ The motion graphics toolbelt for the web.
 - [Simple Ripple](https://codepen.io/sol0mka/full/XKdWJg/) (click to see)
 
 ## Tutorials
+
 - Shape & Swirl (broken link) [API/shape](/api/shape.md)
 - Burst (broken link) [API/burst](/api/burst.md)
 - Path Easing (broken link) [API/easing/path-easing](/api/easing/path-easing.md)
@@ -38,14 +35,17 @@ The motion graphics toolbelt for the web.
 - [Web Animations and Mo.js with Sarah Drasner](https://www.youtube.com/watch?v=yRxWa8lXasI) *[Video]*
 
 ## Documentation
+
 - [Reference](/api)
 
 ## Tools
+
 - [Player](https://github.com/mojs-contrib/mojs-player)
 - [Curve editor](https://github.com/mojs-contrib/mojs-curve-editor)
 - [Timeline editor](https://github.com/mojs-contrib/mojs-timeline-editor)
 
 ## Installation
+
 npm: `npm install mo-js`  
 cdn: `<script src="https://cdn.jsdelivr.net/npm/mo-js@latest/build/mo.min.js"></script>`  
 bower: `bower install mojs`
