@@ -6,3 +6,12 @@ vendor/
 
 npm-debug.log
 stats.json
+
+ coverage/HeadlessChrome 73.0.3679 (Windows 10.0.0)/base.css
+ coverage/HeadlessChrome 73.0.3679 (Windows 10.0.0)/index.html
+ coverage/HeadlessChrome 73.0.3679 (Windows 10.0.0)/prettify.css
+ coverage/HeadlessChrome 73.0.3679 (Windows 10.0.0)/prettify.js
+ coverage/HeadlessChrome 73.0.3679 (Windows 10.0.0)/sort-arrow-sprite.png
+ coverage/HeadlessChrome 73.0.3679 (Windows 10.0.0)/sorter.js
+cypress/screenshots/All Specs/my-image (1).png
+cypress/screenshots/All Specs/my-image (2).png
