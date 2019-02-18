@@ -68,7 +68,7 @@
     "mojs-player": "^0.43.16",
     "puppeteer": "^1.12.2",
     "uglifyjs-webpack-plugin": "^2.1.1",
-    "webpack": "^4.29.3",
+    "webpack": "^4.29.4",
     "webpack-cli": "^3.2.3"
   }
 }
