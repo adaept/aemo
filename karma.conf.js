@@ -51,7 +51,7 @@ module.exports = function (config) {
     // possible values:
     //  - config.[LOG_DISABLE|LOG_ERROR|LOG_WARN|LOG_INFO|LOG_DEBUG]
     logLevel: config.LOG_INFO,
-    sauceLabs: { testName: 'mo · js v2 tests' },
+    ////sauceLabs: { testName: 'mo · js v2 tests' },
     captureTimeout: 50000,
     ////customLaunchers,
     // start these browsers
